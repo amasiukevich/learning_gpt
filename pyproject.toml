@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "learning-ai"
+version = "0.1.0"
+description = "Simple learning materials"
+authors = ["Anton Masiukevich <anton.masiukiewicz1@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = {extras = ["torch"], version = "^4.38.2"}
+ipykernel = "^6.29.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
